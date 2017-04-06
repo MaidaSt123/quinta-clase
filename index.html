@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quinta clase | Diseño y Nuevos Medios</title>
+    <!-- Search Engine -->
+    <meta name="description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta itemprop="description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta name="twitter:description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta name="og:description" content="Primer ejercicio con Bootstrap 3">
+    <meta name="og:site_name" content="Cuarta clase">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Los estilos, el bootstrap.min.css está dentro de una carpeta, estilo.css no. -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">¡A comer!</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#primero" class="page-scroll">Tiramisú</a></li>
+              <li><a href="#segundo" class="page-scroll">La Fabbrica</a></li>
+              <li><a href="#tercero" class="page-scroll">Trattoria Rita</a></li>
+              <li><a href="https://github.com/MaidaSt123" target="_blank" rel="me">Mi cuenta en GitHub</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <header>
+            <h1>Las mejores pizzas</h1>
+            <h2>El top 3 de las mejores pizzerías de Santiago según <a href="https://www.tripadvisor.cl/Restaurants-g294305-c31-Santiago_Santiago_Metropolitan_Region.html" target="_blank" title="Blah Text: Keep, Cut, or Kill?">TripAdvisor</a></h2>
+          </header>
+        </div><!--/col-sm-12 que contiene al header-->
+        <div class="col-sm-8">
+          <section>
+          <!--acá abro el artículo-->
+          <article class="row" id="primero">
+            <div class="col-sm-12">
+              <h3>Tiramisú (4.5)</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="images/pizza-paradiso-03.jpg"></figure>
+              <p>Con más de 15 años de experiencia, esta pizzería integra lo simple y esencial de la cocina italiana.</p>
+              <p>Una cocina rústica coherente con su cultura e historia, representando lo mejor de los productos y materias primas de las diferentes regiones de Italia. </p>
+              <p>Este lugar no solo se caracteriza por su menú. La ubicación y el lugar son ideales para compartir una rica y agradable cena junto amigos y familiares.</p>
+              <p>El servicio y la atención al cliente aportan a esta experiencia única, con una calidad exepcional y a un precio razonable.</p>
+              <p>"Empleados y proveedores comparten el objetivo de hacer vivir al cliente una experiencia única, todos los días. Porque desde siempre nos propusimos dar lo mejor para ser los mejores" <a href="http://www.tiramisu.cl/" target="_blank">Tiramisú.cl</a>.</p>
+              <p>Revisa <a data-toggle="modal" data-target="#miPrimerModal">aquí</a> su ubicación.</p>
+          </article>
+          <!--acá cierro el artículo-->
+          <!--acá abro el artículo-->
+          <article class="row" id="segundo">
+            <div class="col-sm-12">
+              <h3>La Fabbrica (4.5)</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="images/fcf89ca9-c597-4025-82ea-45f8fe405a82.JPG"></figure>
+              <p>Este famoso restaurant se encuentra situado en una hermosa casa patrimonial de los años 20 en la comuna de La Reina.
+              <p>Este espacio no solo te espera con una exquisita cocina italiana, si no que acompaña con un ambiente diferente y lleno de detalles que mzclan lo clásico con lo vanguardista.</p>
+              <p>No solo ofrece una gran variedad de pizzas, si no que los chefs buscan deleitar el paladar de los clientes con diferentes pastas al dente, antipastos y ensaladas. </p>
+              <p>Este lugar, además es la casa del Club de Jazz de Santiago, que todos los viernes y sábado ofrece un entretenido espectáculo.</p>
+              <p><a href="http://la-fabbrica.cl/" target="_blank">la-fabbrica.cl</a>.</p>
+              <p>Revisa <a data-toggle="modal" data-target="#miSegundoModal">aquí</a> su ubicación.</p>
+          </article>
+          <!--acá cierro el artículo-->
+          <!--acá abro el artículo-->
+          <article class="row" id="tercero">
+            <div class="col-sm-12">
+              <h3>Trattoria Rita (4.5)</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="images/Och_17069_Fl-8652-TratoriaRita-Fg(1)10.jpg"></figure>
+              <p>Este restaurant tiene el fin de llevar al cliente una gastronomía italiania real. Recorrieron toda Itlia buscando sabores, texturas, aromaas y recetas para traer a Chile.
+              <p>Crearon un lugar ideal para compartir en familia y con los amigos, disfrutando además de un ambiente agradable.</p>
+              <p>Se pueden disfrutar exquisitas preparaciones de todo tipo como ensalas, pizzas y pastas; además de deliciosos y tradisionales postres como el tiramisú.</p>
+              <p>Además este lugar ofrece distintos tipos de descuentos dependiendo del mes, cumpleaños, el plato que pidas... ¡Imperdíble!</p>
+              <p>"Queríamos saber de los sabores de Italia; cómo esta cocina cautiva y trasciende a las diferentes culturas. Recorrimos sus calles y rincones, nos dejamos transportar y seducir por las costumbres, sabores y tradiciones de cada una de sus regiones" <a href="http://www.rita.cl/" target="_blank">rita.cl</a>.</p>
+              <p>Revisa <a data-toggle="modal" data-target="#miTercerModal">aquí</a> su ubicación.</p>
+          </article>
+          <!--acá cierro el artículo-->
+        </section>
+      </div><!--/col-sm-8 que contiene al section-->
+        <div class="col-sm-4">
+          <aside>
+            <h3>MENÚS</h3>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Tiramisú
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    Cervezas, pizzas y gelatería. ¡Mira lo que tienen para ofrecer!
+                    <p><a href="http://www.tiramisu.cl/pdf/birreria.pdf">Birrería</a></p>
+                    <p><a href="http://www.tiramisu.cl/pdf/pizzeria.pdf">Pizzas</a></p>
+                    <p><a href="http://www.tiramisu.cl/pdf/gelateria.pdf">Gelatería</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      La Fabbrica
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    Ensaladas, pizzas, rissotos, postres y ¡más!
+                    <p><a href="http://la-fabbrica.cl/menu/" target="_blank">Menú</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Trattoria Rita
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Revisa la gran variedad de platos que hay para tí y ojo con las recomendaciones de la Nonna
+                    <p><a href="http://www.rita.cl/carta/">Carta</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        </aside>
+      </div><!--/col-sm-4 que contiene al aside-->
+
+        <div class="col-sm-12">
+          <footer>
+          <p><a href="mailto:mmstephens@uc.cl">Magdalena Stephens</a>. Amo la comida italiana :)</p>
+        </footer>
+      </div><!--/col-sm-12 que contiene al footer-->
+      </div><!--/row-->
+    </div><!--/container-->
+
+<!--por acá voy a poner miPrimerModal-->
+<div class="modal fade" id="miPrimerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Como llegar</h4>
+      </div>
+      <div class="modal-body">
+        <p>Isidora Goyenechea 3141, Las Condes, Región Metropolitana</p>
+      </div><!--/modal-body-->
+    </div><!--/modal-content-->
+  </div><!--/modal-dialog-->
+</div><!--/modal-->
+
+<!--por acá voy a poner miSegundoModal-->
+<div class="modal fade" id="miSegundoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Cómo llegar</h4>
+      </div>
+      <div class="modal-body">
+        Av. Ossa 101-169, La Reina, Región Metropolitana
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--por acá voy a poner miTercerModal-->
+<div class="modal fade" id="miTercerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Cómo llegar</h4>
+      </div>
+      <div class="modal-body">
+        Av. Presidente Kennedy 5413 Local 369, Boulevard Parque Arauco - Las Condes
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+  </body>
+</html>
